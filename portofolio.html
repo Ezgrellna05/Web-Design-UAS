@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eliza Grace Elleonora</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Hubungkan ke file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">Eliza Grace Elleonora</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">Tentang</a></li>
+      <li><a href="#organisasi">Organisasi</a></li>
+      <li><a href="#karya">Karya</a></li>
+      <li><a href="#hobi">Hobi</a></li>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero" style="padding:0;">
+    <div class="hero-left">
+      <div class="hero-top">
+        <div class="hero-overline">Digital Business · UKWMS · 2024</div>
+        <h1 class="hero-name">
+          Eliza<br>Grace<br><em>Elleonora.</em>
+        </h1>
+      </div>
+      <div class="hero-bottom">
+        <p class="hero-desc">
+          Mahasiswi Digital Business Management yang meyakini bahwa kreativitas dan logika bisa berjalan beriringan dimana saja dan kapan saja.
+        </p>
+        <div class="hero-actions">
+          <a href="#about" class="btn btn-solid">Kenali Saya</a>
+          <!-- Pop-up Kontak -->
+          <button onclick="openModal()" class="btn btn-text">Hubungi →</button>
+        </div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <img src="grace.jpeg" class="img-main">
+
+        <img src="mini gres.jpeg" class="img-hover">
+    </div>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-cell">
+          <div class="meta-key">Angkatan</div>
+          <div class="meta-val">2024</div>
+        </div>
+        <div class="meta-cell">
+          <div class="meta-key">Organisasi</div>
+          <div class="meta-val">BEMF-B</div>
+        </div>
+        <div class="meta-cell">
+          <div class="meta-key">Kampus</div>
+          <div class="meta-val">UKWMS</div>
+        </div>
+        <div class="meta-cell">
+          <div class="meta-key">Bidang Minat</div>
+          <div class="meta-val">2 Hobi</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="s-inner">
+      <h2 class="s-title reveal">Tentang  <em>Saya</em></h2>
+      <div class="rule-line reveal"></div>
+      <div class="about-grid">
+        <div class="about-img reveal">
+        <img src="image 1.jpeg">
+        </div>
+        <div class="reveal" style="transition-delay:0.12s">
+          <div class="about-body">
+            <p>
+              Halo! Saya <strong>Eliza Grace Elleonora</strong>, mahasiswi Digital Business Management di Universitas Katolik Widya Mandala Surabaya. Bagi saya, belajar bukan sekadar memahami teori tetapi tentang mengasah kemampuan, mencoba ide-ide baru, dan terus beradaptasi.
+            </p>
+            <p>
+              Di luar akademik, saya mengeksplorasi kreativitas lewat <strong>baking</strong> dan <strong>photography</strong>. Baking mengajarkan saya untuk berani bereksperimen; photography mengajarkan saya melihat detail yang sering terlewat.
+            </p>
+            <p>
+              Saya percaya kolaborasi dan komunikasi yang baik adalah fondasi dari semua hal baik dalam organisasi, maupun dalam kehidupan sehari-hari.
+            </p>
+          </div>
+          <div class="info-list">
+            <div class="info-row">
+              <span class="info-key">Jurusan</span>
+              <span class="info-val">Digital Business Management</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Kampus</span>
+              <span class="info-val">Universitas Katolik Widya Mandala Surabaya</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Angkatan</span>
+              <span class="info-val">2024</span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Email</span>
+              <span class="info-val"><a href="mailto:eliza-g.dbm24@ukwms.ac.id" style="color: inherit; text-decoration: none;">eliza-g.dbm24@ukwms.ac.id</a></span>
+            </div>
+            <div class="info-row">
+              <span class="info-key">Instagram</span>
+              <span class="info-val"><a href="https://instagram.com/grcllnr" target="_blank" style="color: inherit; text-decoration: none;">@grcllnr</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORGANISASI -->
+  <section id="organisasi">
+    <div class="s-inner">
+      <div class="eyebrow reveal">Organisasi</div>
+      <h2 class="s-title reveal">Aktif <em>Berorganisasi</em></h2>
+      <div class="rule-line reveal"></div>
+      <div class="org-grid">
+        <div class="reveal">
+          <div class="org-name">BEMF-B</div>
+          <p class="org-desc">
+            Badan Eksekutif Mahasiswa Fakultas Bisnis adalah organisasi resmi di bawah naungan Fakultas Bisnis UKWMS. Melalui organisasi ini, saya mengembangkan kemampuan kepemimpinan, koordinasi tim, dan komunikasi efektif dalam lingkungan kerja nyata.
+          </p>
+          <div class="org-quote">
+            "Organisasi mengajarkan saya bagaimana berkolaborasi dengan orang-orang dari berbagai latar belakang untuk mencapai satu tujuan bersama."
+          </div>
+        </div>
+        <div class="org-img reveal" style="transition-delay:0.12s">
+        <img src="BEMF-B.jpeg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KARYA -->
+  <section id="karya">
+    <div class="s-inner">
+      <div class="eyebrow reveal">Karya & Pencapaian</div>
+      <h2 class="s-title reveal">Yang Sudah <em>Dicapai</em></h2>
+      <div class="rule-line reveal"></div>
+   <div class="karya-grid reveal">
+        <div class="karya-card">
+          <div class="karya-img">
+            <img src="NEDC.jpeg" alt="National Event Design Competition">
+          </div>
+          <div class="karya-body">
+            <div class="karya-tag">Kompetisi Nasional</div>
+            <div class="karya-title">National Event Design Competition</div>
+            <p class="karya-desc">Berpartisipasi sebagai Badan Pengurus Harian dalam kompetisi desain event berskala nasional, mengasah kemampuan kreativitas dan perencanaan event secara menyeluruh.</p>
+          </div>
+        </div>
+
+        <div class="karya-card">
+          <div class="karya-img">
+            <img src="TKO.jpeg" alt="Training Kader Ormawa">
+          </div>
+          <div class="karya-body">
+            <div class="karya-tag">Pelatihan Kader Ormawa</div>
+            <div class="karya-title">Training Kader Ormawa</div>
+            <p class="karya-desc">Berpartisipasi sebagai Koordinator Sie Acara dalam  program pembinaan kader organisasi mahasiswa untuk meningkatkan kapasitas kepemimpinan dan manajemen organisasi.</p>
+          </div>
+        </div>
+
+        <div class="karya-card">
+          <div class="karya-img">
+            <img src="BBC GO.jpeg" alt="BBC GO 8.0">
+          </div>
+          <div class="karya-body">
+            <div class="karya-tag">Kompetisi Regional</div>
+            <div class="karya-title">Bem's Business Challenge GO 8.0 </div>
+            <p class="karya-desc">Berpartisipasi sebagai anggota Sie Kesekretarian dan Master of Ceremony dalam kompetisi business plan yang bertujuan umtuk mengasah kemampuan mahasiswa dalam merancang sebuah bisnis yang sesuai dengan trend saat ini namun dikemas dengan budaya Indonesia
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBI -->
+  <section id="hobi">
+    <div class="s-inner">
+      <div class="eyebrow reveal">Minat & Hobi</div>
+      <h2 class="s-title reveal">Di Luar <em>Kampus</em></h2>
+      <div class="rule-line reveal"></div>
+      
+      <!-- Tambahkan data-img berisi nama file gambar kamu di setiap baris -->
+      <div class="hobi-list reveal">
+        <div class="hobi-row" data-img="baking.jpeg">
+          <span class="hobi-idx">01</span>
+          <div class="hobi-name">Baking</div>
+          <p class="hobi-desc">Mengeksplorasi resep-resep viral, dari croissant hingga matcha dessert. Setiap eksperimen baru mengajarkan keberanian untuk mencoba hal yang belum pernah dilakukan.</p>
+          <span class="hobi-arrow">→</span>
+        </div>
+        <div class="hobi-row" data-img="photo.jpeg">
+          <span class="hobi-idx">02</span>
+          <div class="hobi-name">Photography</div>
+          <p class="hobi-desc">Mengabadikan momen dan keindahan sehari-hari melalui lensa kamera. Fotografi adalah cara bercerita tanpa kata-kata.</p>
+          <span class="hobi-arrow">→</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hover Preview Hobi -->
+    <div id="hobi-hover-img" class="hobi-hover-preview">
+      <img src="" alt="Preview Hobi">
+    </div>
+  </section>
+
+  <!-- POP-UP Kontak-->
+  <div id="contactModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      
+      <div class="modal-header">
+        <span class="modal-eyebrow">Kontak</span>
+        <h2 class="modal-title">Mari <em>Terhubung</em></h2>
+        <div class="modal-rule"></div>
+      </div>
+
+      <div class="kontak-grid">
+        <div>
+          <p class="kontak-intro">
+            Terbuka untuk diskusi, kolaborasi, atau sekadar berkenalan. Jangan ragu untuk menghubungi saya.
+          </p>
+          <div class="kontak-list">
+            <!-- Link Email -->
+            <a href="mailto:eliza-g.dbm24@ukwms.ac.id" class="kontak-item-link">
+              <div class="kontak-item">
+                <div class="kontak-icon">✉</div>
+                <div>
+                  <div class="kontak-key">Email</div>
+                  <div class="kontak-val">eliza-g.dbm24@ukwms.ac.id</div>
+                </div>
+              </div>
+            </a>
+            
+            <!-- Link WhatsApp -->
+            <a href="https://wa.me/6282233259527" target="_blank" class="kontak-item-link">
+              <div class="kontak-item">
+                <div class="kontak-icon">☏</div>
+                <div>
+                  <div class="kontak-key">WhatsApp</div>
+                  <div class="kontak-val">+62 822-3325-9527</div>
+                </div>
+              </div>
+            </a>
+            
+            <!-- Link Instagram -->
+            <a href="https://instagram.com/grcllnr" target="_blank" class="kontak-item-link">
+              <div class="kontak-item">
+                <div class="kontak-icon">◎</div>
+                <div>
+                  <div class="kontak-key">Instagram</div>
+                  <div class="kontak-val">@grcllnr</div>
+                </div>
+              </div>
+            </a>
+            
+            <!-- Lokasi (Maps) -->
+            <a href="https://maps.google.com/?q=Surabaya" target="_blank" class="kontak-item-link">
+              <div class="kontak-item">
+                <div class="kontak-icon">◉</div>
+                <div>
+                  <div class="kontak-key">Lokasi</div>
+                  <div class="kontak-val">Surabaya, Indonesia</div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Formulir Pesan -->
+        <div class="form-wrap">
+          <div class="form-group">
+            <label class="form-label">Nama Lengkap</label>
+            <input class="form-input" type="text" placeholder="Nama kamu" id="inputNama"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="email@kamu.com" id="inputEmail"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Pesan</label>
+            <textarea class="form-textarea" placeholder="Tulis pesanmu di sini..." id="inputPesan"></textarea>
+          </div>
+          <div class="form-success" id="formSuccess">
+            Pesan berhasil dikirim. Terima kasih, akan segera dibalas.
+          </div>
+          <button class="form-submit" onclick="kirimPesan()">Kirim Pesan</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-name">Eliza Grace Elleonora</div>
+    <span class="footer-copy">© 2026 · All rights reserved</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
